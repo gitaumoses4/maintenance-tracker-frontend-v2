@@ -1,68 +1,117 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Maintenance Tracker :wrench:
+Andela Maintenance Tracker Web Project Challenge 4
 
-## Available Scripts
+![GitHub last commit](https://img.shields.io/github/last-commit/gitaumoses4/maintenance-tracker-frontend/develop.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/gitaumoses4/maintenance-tracker-frontend.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gitaumoses4/maintenance-tracker-frontend.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/gitaumoses4/maintenance-tracker-frontend.svg)
 
-In the project directory, you can run:
+![Mock Up](https://image.ibb.co/gmP8vy/Mock_Up.jpg)
 
-### `npm start`
+   * [Introduction](#introduction)
+      * [Project Overview](#project-overview)
+      * [Required Features](#required-features)
+   * [Installation and Setup](#installation-and-setup)
+      * [Open the index.html file in your browser](#open-the-indexhtml-file-in-your-browser)
+         * [UI Template](#ui-template)
+         * [Pivotal Tracker Project](#pivotal-tracker-project)
+         * [Fonts](#fonts)
+         * [Images](#images)
+         * [UI Inspiration](#ui-inspiration)
+   * [Wireframes](#wireframes)
+      * [Login page](#login-page)
+      * [Signup page](#signup-page)
+      * [User Home Page](#user-home-page)
+      * [User Create Request Page](#user-create-request-page)
+      * [User View Previous Requests](#user-view-previous-requests)
+      * [User Track Request Status](#user-track-request-status)
+      * [Admin Home Page](#admin-home-page)
+      * [Admin Change Request Status](#admin-change-request-status)
+      * [Admin can view all requests and filter them.](#admin-can-view-all-requests-and-filter-them)
+      
+# Introduction
+## Project Overview
+Maintenance Tracker App is an application that provides users with the ability to reach out to operations or repairs department regarding repair or maintenance requests and monitor the status of their request.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Required Features
+1. Users can [create an account](https://maintenance-tracker-frontend.herokuapp.com/register.html) and [log in](https://maintenance-tracker-frontend.herokuapp.com/login.html) 
+2. Users should be able to [make maintenance or repair requests](https://maintenance-tracker-frontend.herokuapp.com/user/new-request.html).
+3. An admin should be able to [approve/reject](https://maintenance-tracker-frontend.herokuapp.com/admin/request.html) a repair/maintenance request.
+4. The admin should be able to [mark a request as resolved](https://maintenance-tracker-frontend.herokuapp.com/admin/request.html) once it is done.
+5. The admin should be able to [view all maintenance/repair requests](https://maintenance-tracker-frontend.herokuapp.com/admin/requests.html) on the application.
+6. The admin should be able to [filter](https://maintenance-tracker-frontend.herokuapp.com/admin/requests.html) requests.
+7. A user can [view all](https://maintenance-tracker-frontend.herokuapp.com/user/requests.html) of his/her requests
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+# Installation and Setup
+Clone the repository.
+```bash
+git clone https://github.com/gitaumoses4/maintenance-tracker-frontend
+```
+## Open the index.html file in your browser 
+```bash
+firefox index.html
+```
+### UI Template
+You can view the UI template on [Github Pages](https://gitaumoses4.github.io/maintenance-tracker)
 
-### `npm test`
+### Pivotal Tracker Project
+You can view the [Pivotal Tracker stories](https://www.pivotaltracker.com/n/projects/2173234)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Fonts
+The following font are used for this project.
 
-### `npm run build`
+1. [Dosis](https://fonts.google.com/specimen/Dosis) font by Google Fonts
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Images
+The following images are used in this project.
+1. [Auomobile Repair](https://www.pexels.com/photo/adult-auto-automobile-automotive-558375/) by Fancycrave on [Pexels](https://pexels.com)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### UI Inspiration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+User Interface inspired by [Semantic UI](https://semantic-ui.com)
 
-### `npm run eject`
+# Wireframes
+Wireframes are created using [MockFlow](http://mockflow.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Login page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Users will provide their login information in order to access the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Login Page](https://image.ibb.co/c8ey88/Login.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Signup page
+Users can sign up with their email in order to get an account.
+![Sign up Page](https://image.ibb.co/mBimvo/Signup.png)
 
-## Learn More
+## User Home Page
+The user will be provided with this dashboard when they successfully sign up and log in.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![User Home Page](https://image.ibb.co/kKdmvo/User_Home.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## User Create Request Page
+The user can create a Maintenance Request and submit it.
 
-### Code Splitting
+![User Create Request](https://image.ibb.co/jKmQsd/user_request.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## User View Previous Requests
+The user can view their request history.
 
-### Analyzing the Bundle Size
+![User Requests](https://image.ibb.co/geVfo8/user_requests.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## User Track Request Status
+The user can track the status of their request.
+![User Request](https://image.ibb.co/d0waMT/user_create_request.png)
 
-### Making a Progressive Web App
+## Admin Home Page
+The admin will be provided with this dashboard when they successfully sign up and log in.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+![Admin Home Page](https://image.ibb.co/bDREFo/admin_home.png)
 
-### Advanced Configuration
+## Admin Change Request Status
+The admin can view a request and set it as approved or rejected.
+![Admin Request](https://image.ibb.co/mP2t88/admin_request.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Admin can view all requests and filter them.
+![Admin Requests](https://image.ibb.co/deV8ao/admin_requests.png)
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
