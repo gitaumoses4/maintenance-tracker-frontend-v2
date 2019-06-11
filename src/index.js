@@ -5,8 +5,8 @@ import {Provider} from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import store from './redux/store';
 import App from './routes';
-import './main.scss';
 import './mg-framework.scss';
+import './main.scss';
 
 const routes = () => (
   <Provider store={store}>
