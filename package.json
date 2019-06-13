@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-loader": "^8.0.5",
+    "classnames": "^2.2.6",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-cypress": "^2.2.1",
     "node-sass": "^4.12.0",
