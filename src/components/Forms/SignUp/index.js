@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 const SignUp = (props) => {
   return (
-    <div />
+    <div>
+      Hello
+    </div>
   );
 };
 

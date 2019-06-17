@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import NavBar from '../NavBar';
+import { children } from '../../lib/props';
+
 
 const Layout = ({ children, landing, menu }) => (
   <div className="mg pushable">
@@ -15,10 +17,7 @@ const Layout = ({ children, landing, menu }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.array
-  ]),
+  children,
   landing: PropTypes.bool,
   menu: PropTypes.object
 };
@@ -28,5 +27,6 @@ Layout.defaultProps = {
   children: null,
   menu: null
 };
+
 
 export default Layout;
